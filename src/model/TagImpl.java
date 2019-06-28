@@ -87,6 +87,15 @@ public class TagImpl implements Tag {
   }
 
   /**
+   * Removes a hand from a tag
+   */
+  @Override
+  public void removeHand(String h) throws IllegalArgumentException {
+    this.hands.remove(h);
+
+  }
+
+  /**
    * Adds a hand to the Tag
    */
   @Override

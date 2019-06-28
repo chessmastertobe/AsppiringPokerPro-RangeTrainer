@@ -8,6 +8,7 @@ public class TagImplTest extends TestCase {
 
   Tag t1;
   ArrayList<String> h;
+  Tag t2;
 
   void initData() {
    t1 = new TagImpl("RFI/Fold","Green");
@@ -37,6 +38,8 @@ public class TagImplTest extends TestCase {
     t1.addHand("ATs");
     t1.addHand("99");
     t1.addHand("22");
+
+    t2 = new TagImpl("All-In","Red");
   }
 
 
@@ -67,6 +70,10 @@ public class TagImplTest extends TestCase {
     assertEquals(t1.printHands(),"<BeginTag> RFI/Fold Green\n" +
             "A2s A3s A4s A5s A6s A7s A8s A9s ATs 99 22 \n" +
             "<EndTag>");
+
+    assertEquals("<BeginTag> All-In Red\n" +
+            "\n" +
+            "<EndTag>",t2.printHands());
 
   }
 

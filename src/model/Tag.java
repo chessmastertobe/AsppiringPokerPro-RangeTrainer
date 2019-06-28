@@ -39,6 +39,11 @@ public interface Tag {
   public ArrayList<String> getHands();
 
   /**
+   * Removes a hand from a tag
+   */
+  public void removeHand(String h) throws IllegalArgumentException;
+
+  /**
    * Adds a hand to the Tag
    */
   public void addHand(String h);

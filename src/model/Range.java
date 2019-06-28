@@ -32,6 +32,11 @@ public interface Range {
   public void addTag(Tag t);
 
   /**
+   * Remove Tag
+   */
+  public void removeTag(String name);
+
+  /**
    * returns all the tags in the Range
    */
   public ArrayList<Tag> getTags();
@@ -41,6 +46,8 @@ public interface Range {
    * @return
    */
   public String printRange();
+
+
 
 
 

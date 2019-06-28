@@ -63,6 +63,18 @@ public class RangeImpl implements Range {
   }
 
   /**
+   * Remove Tag
+   */
+  @Override
+  public void removeTag(String name) {
+    for (int i = 0; i < this.tags.size(); i++) {
+      if (this.tags.get(i).getName().equals(name)) {
+        this.tags.remove(this.tags.get(i));
+      }
+    }
+  }
+
+  /**
    * returns all the tags in the Range
    */
   @Override
@@ -80,7 +92,7 @@ public class RangeImpl implements Range {
 
     for (Tag t : this.tags) {
       out.append("\n");
-      out.append(t.getHands());
+      out.append(t.printHands());
     }
 
     out.append("<EndRange>");
