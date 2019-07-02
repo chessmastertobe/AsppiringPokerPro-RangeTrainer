@@ -87,16 +87,16 @@ public class RangeImplTest extends TestCase {
   public void testPrintRange() {
     initData();
 
-    assertEquals("<BeginRange>\n" +
+    assertEquals("<BeginRange> Openraising UTG\n" +
             "<BeginTag> RFI/Fold Green\n" +
             "A2s A3s A4s A5s A6s A7s A8s A9s ATs 99 22 \n" +
             "<EndTag><EndRange>",r1.printRange());
 
-    assertEquals("<BeginRange><EndRange>",r2.printRange());
+    assertEquals("<BeginRange> BB Defense BB<EndRange>",r2.printRange());
 
     r1.addTag(t2);
 
-    assertEquals("<BeginRange>\n" +
+    assertEquals("<BeginRange> Openraising UTG\n" +
             "<BeginTag> RFI/Fold Green\n" +
             "A2s A3s A4s A5s A6s A7s A8s A9s ATs 99 22 \n" +
             "<EndTag>\n" +

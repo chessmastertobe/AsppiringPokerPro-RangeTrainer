@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="990bd38c-2069-4e40-a34e-a05f8fb022d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/RangeTrainerModelImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/CategoryPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/MenuPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/RangePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/RangeTrainerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/TagsPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/RangeTrainerModelImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RangeTrainer/model/RangeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RangeTrainer/model/RangeImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RangeTrainer/model/RangeTrainerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RangeTrainer/model/RangeTrainerModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/RangeTrainer/model/RangeImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/RangeTrainer/model/RangeImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/RangeTrainer/model/TagImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/RangeTrainer/model/TagImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Range.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Range.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/RangeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/RangeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Tag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/TagImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/TagImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/RangeTrainerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/RangeTrainerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/RangeTrainerModelImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/RangeTrainerModelImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/model/RangeImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/RangeImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/model/TagImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/TagImplTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,48 +27,125 @@
     <session id="-1250047087">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="class" value="1" />
+          <entry key="java" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1646" />
+          <entry key="java" value="6797" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1646" />
+          <entry key="JAVA" value="6797" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/model/RangeTrainerModel.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/TagImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="765">
+              <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/RangeTrainerView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/RangeTrainerModelImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/view/RangePanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/MenuPanel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+              <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/CategoryPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/TagsPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/model/TagImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1095">
+              <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/model/RangeTrainerModelImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1260">
+              <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/model/RangeImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1560">
+              <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -77,6 +157,7 @@
       <list>
         <option value="JUnit3 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -90,15 +171,28 @@
         <option value="$PROJECT_DIR$/src/model/Tag.java" />
         <option value="$PROJECT_DIR$/src/model/TagImpl.java" />
         <option value="$PROJECT_DIR$/src/model/Range.java" />
+        <option value="$PROJECT_DIR$/src/model/RangeTrainerModel.java" />
         <option value="$PROJECT_DIR$/src/model/RangeImpl.java" />
+        <option value="$PROJECT_DIR$/test/model/RangeTrainerModelImplTest.java" />
         <option value="$PROJECT_DIR$/test/model/RangeImplTest.java" />
+        <option value="$PROJECT_DIR$/src/view/IRangeModelView.java" />
         <option value="$PROJECT_DIR$/src/model/RangeTrainerModelImpl.java" />
+        <option value="$PROJECT_DIR$/test/view/RangePanelImplTest.java" />
+        <option value="$PROJECT_DIR$/src/view/RangePanelImpl.java" />
+        <option value="$PROJECT_DIR$/src/view/MenuView.java" />
+        <option value="$PROJECT_DIR$/src/view/RangeModelViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/view/CategoryPanel.java" />
+        <option value="$PROJECT_DIR$/src/view/MenuPanel.java" />
+        <option value="$PROJECT_DIR$/src/view/RangePanel.java" />
+        <option value="$PROJECT_DIR$/src/view/TagsPanel.java" />
+        <option value="$PROJECT_DIR$/src/view/RangeTrainerView.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -106,6 +200,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,28 +222,22 @@
             <path>
               <item name="RangeTrainer" type="b2602c69:ProjectViewProjectNode" />
               <item name="RangeTrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RangeTrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RangeTrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561696504559" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562061600051" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -160,6 +249,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="view" />
       <recent name="model" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -178,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RangeImplTest.testPrintRange">
+  <component name="RunManager" selected="JUnit.RangePanelImplTest.testPanel">
     <configuration name="RangeImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RangeTrainer" />
       <extension name="coverage">
@@ -189,22 +279,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="model" />
       <option name="MAIN_CLASS_NAME" value="model.RangeImplTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RangeImplTest.testAddTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RangeTrainer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.RangeImplTest" />
-      <option name="METHOD_NAME" value="testAddTag" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,21 +299,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TagImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RangePanelImplTest.testPanel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RangeTrainer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="model.*" />
+          <option name="PATTERN" value="view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.TagImplTest" />
+      <option name="PACKAGE_NAME" value="view" />
+      <option name="MAIN_CLASS_NAME" value="view.RangePanelImplTest" />
+      <option name="METHOD_NAME" value="testPanel" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TagImplTest.testPrintHands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RangeTrainerModelImplTest.testGetCategories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RangeTrainer" />
       <extension name="coverage">
         <pattern>
@@ -248,8 +324,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.TagImplTest" />
-      <option name="METHOD_NAME" value="testPrintHands" />
+      <option name="MAIN_CLASS_NAME" value="model.RangeTrainerModelImplTest" />
+      <option name="METHOD_NAME" value="testGetCategories" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RangeTrainerModelImplTest.testPrintModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RangeTrainer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.RangeTrainerModelImplTest" />
+      <option name="METHOD_NAME" value="testPrintModel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -258,17 +350,17 @@
     <list>
       <item itemvalue="JUnit.RangeImplTest" />
       <item itemvalue="JUnit.RangeImplTest.testPrintRange" />
-      <item itemvalue="JUnit.TagImplTest" />
-      <item itemvalue="JUnit.TagImplTest.testPrintHands" />
-      <item itemvalue="JUnit.RangeImplTest.testAddTag" />
+      <item itemvalue="JUnit.RangeTrainerModelImplTest.testGetCategories" />
+      <item itemvalue="JUnit.RangeTrainerModelImplTest.testPrintModel" />
+      <item itemvalue="JUnit.RangePanelImplTest.testPanel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RangePanelImplTest.testPanel" />
         <item itemvalue="JUnit.RangeImplTest.testPrintRange" />
         <item itemvalue="JUnit.RangeImplTest" />
-        <item itemvalue="JUnit.RangeImplTest.testAddTag" />
-        <item itemvalue="JUnit.TagImplTest.testPrintHands" />
-        <item itemvalue="JUnit.TagImplTest" />
+        <item itemvalue="JUnit.RangeTrainerModelImplTest.testPrintModel" />
+        <item itemvalue="JUnit.RangeTrainerModelImplTest.testGetCategories" />
       </list>
     </recent_temporary>
   </component>
@@ -286,67 +378,76 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TagImplTest_testPrintHands - 2019.06.27 at 09h 24m 23s.xml">
-      <configuration name="TagImplTest.testPrintHands" configurationId="JUnit" />
+    <history-entry file="RangeTrainerModelImplTest_testGetCategories - 2019.06.28 at 10h 59m 27s.xml">
+      <configuration name="RangeTrainerModelImplTest.testGetCategories" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeImplTest_testAddTag - 2019.06.27 at 09h 24m 43s.xml">
-      <configuration name="RangeImplTest.testAddTag" configurationId="JUnit" />
+    <history-entry file="RangeTrainerModelImplTest_testGetCategories - 2019.06.28 at 11h 00m 39s.xml">
+      <configuration name="RangeTrainerModelImplTest.testGetCategories" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeImplTest_testPrintRange - 2019.06.27 at 09h 24m 47s.xml">
-      <configuration name="RangeImplTest.testPrintRange" configurationId="JUnit" />
+    <history-entry file="RangeTrainerModelImplTest_testPrintModel - 2019.06.28 at 11h 05m 48s.xml">
+      <configuration name="RangeTrainerModelImplTest.testPrintModel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeImplTest_testPrintRange - 2019.06.27 at 09h 25m 59s.xml">
-      <configuration name="RangeImplTest.testPrintRange" configurationId="JUnit" />
+    <history-entry file="RangeTrainerModelImplTest_testPrintModel - 2019.06.28 at 11h 07m 01s.xml">
+      <configuration name="RangeTrainerModelImplTest.testPrintModel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeImplTest - 2019.06.27 at 09h 26m 41s.xml">
+    <history-entry file="RangeImplTest - 2019.06.28 at 11h 07m 33s.xml">
       <configuration name="RangeImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeImplTest_testPrintRange - 2019.06.27 at 09h 27m 03s.xml">
+    <history-entry file="RangeImplTest_testPrintRange - 2019.06.28 at 11h 08m 07s.xml">
       <configuration name="RangeImplTest.testPrintRange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeImplTest_testPrintRange - 2019.06.27 at 09h 27m 24s.xml">
+    <history-entry file="RangeImplTest_testPrintRange - 2019.06.28 at 11h 08m 29s.xml">
       <configuration name="RangeImplTest.testPrintRange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeImplTest_testPrintRange - 2019.06.28 at 05h 30m 35s.xml">
+    <history-entry file="RangeImplTest_testPrintRange - 2019.06.28 at 11h 08m 52s.xml">
       <configuration name="RangeImplTest.testPrintRange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeImplTest_testPrintRange - 2019.06.28 at 05h 31m 58s.xml">
-      <configuration name="RangeImplTest.testPrintRange" configurationId="JUnit" />
+    <history-entry file="RangePanelImplTest_testPanel - 2019.07.01 at 17h 42m 26s.xml">
+      <configuration name="RangePanelImplTest.testPanel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeImplTest_testPrintRange - 2019.06.28 at 05h 32m 28s.xml">
-      <configuration name="RangeImplTest.testPrintRange" configurationId="JUnit" />
+    <history-entry file="RangePanelImplTest_testPanel - 2019.07.01 at 17h 45m 48s.xml">
+      <configuration name="RangePanelImplTest.testPanel" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26800978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32941177" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31428573" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31336898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -381,52 +482,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/Tag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/RangeImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1453">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/TagImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
-          <folding>
-            <element signature="e#1849#1850#0" expanded="true" />
-            <element signature="e#1876#1877#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/TagImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/RangeImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
-          <folding>
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Range.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -434,17 +489,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/RangeTrainerModelImpl.java">
+    <entry file="file://$PROJECT_DIR$/out/production/RangeTrainer/model/Range.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        <state relative-caret-position="135">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/RangeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="90" column="70" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/RangeTrainerModel.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Tag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MenuView.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/RangeModelViewImpl.java" />
+    <entry file="file://$PROJECT_DIR$/test/view/RangePanelImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/RangePanelImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/IRangeModelView.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/RangeTrainerModelImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/TagImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/TagImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/RangeTrainerModelImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/RangeImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/RangeTrainerMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/CategoryPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MenuPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/RangePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/TagsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/RangeTrainerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>

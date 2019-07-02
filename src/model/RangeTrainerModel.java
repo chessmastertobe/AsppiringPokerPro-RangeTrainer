@@ -23,12 +23,14 @@ public interface RangeTrainerModel {
   /**
    * Adds a Range to the model.
    */
-  public ArrayList<Range> addRange();
+  public void addRange(Range r);
+
 
   /**
-   * Replaces A range in the model.
+   * Returns a string representing the entire model.
    */
-  public void replaceRange(String category, String position);
+  public String printModel();
+
 
   /**
    * Exports the range to a text file.

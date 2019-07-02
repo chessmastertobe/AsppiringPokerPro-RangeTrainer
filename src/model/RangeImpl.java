@@ -88,7 +88,8 @@ public class RangeImpl implements Range {
   @Override
   public String printRange() {
     StringBuilder out = new StringBuilder();
-    out.append("<BeginRange>");
+    out.append("<BeginRange> " + this.category + " " + this.position);
+
 
     for (Tag t : this.tags) {
       out.append("\n");
