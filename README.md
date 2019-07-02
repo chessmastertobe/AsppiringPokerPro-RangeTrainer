@@ -13,3 +13,10 @@ Range Trainer is a training software designed for poker players to help them mas
 <ul>
   <li>Add more games for memorizing the ranges</li>
 </ul>
+
+<h2>Current Games</h2>
+<ul>
+  <li>Reconstruct </br>
+  <p>The goal of reconstruct is to re-create a range and draw it out across the chart from scratch.</p></li> 
+  
+</ul>
