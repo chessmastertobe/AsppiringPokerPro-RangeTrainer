@@ -1,5 +1,7 @@
 package view;
 
+import java.util.ArrayList;
+
 /**
  * A category panel is the panel that lists the categories of ranges such as:
  * - Openraising
@@ -9,4 +11,15 @@ package view;
  * and delete a category.
  */
 public interface CategoryPanel {
+
+  /**
+   * Takes in a list of categories
+   */
+  public void acceptCategories(ArrayList<String> cat);
+
+
+  /**
+   * Recieves the controller.
+   */
+  public void recieveController();
 }

@@ -1,5 +1,7 @@
 package view;
 
+import model.Range;
+
 /**
  * The Range panel displays the table of Texas Hold'em starting hands along with
  * an edit, delete, and add button.
@@ -9,4 +11,9 @@ package view;
  *- The add button allows a user to add a new position within the category.
  */
 public interface RangePanel {
+
+  /**
+   * Takes in a range and displays it
+   */
+  public void acceptRange(Range r);
 }

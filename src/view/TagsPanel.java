@@ -1,5 +1,11 @@
 package view;
 
+import java.util.ArrayList;
+
+import model.Range;
+import model.RangeTrainerModelImpl;
+import model.Tag;
+
 /**
  * The tags panel contains a dashboard of tags with their respective color. The user
  * has the ability to edit, delete, and add a tag.
@@ -15,4 +21,10 @@ package view;
  *  hands in the interface.
  */
 public interface TagsPanel {
+
+  /**
+   * Accepts a list of tags and displays it in the panel.
+   */
+  public void acceptTags(ArrayList<Tag> t);
+
 }
