@@ -16,4 +16,17 @@ public interface RangePanel {
    * Takes in a range and displays it
    */
   public void acceptRange(Range r);
+
+  /**
+   * Sets the height of the Panel
+   */
+  public void setHeight(int h);
+
+
+
+  /**
+   * Sets the width of the Panel
+   */
+  public void setWidth(int w);
+
 }

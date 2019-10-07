@@ -2,6 +2,8 @@ package view;
 
 import java.util.ArrayList;
 
+import controller.RangeTrainerController;
+
 /**
  * A category panel is the panel that lists the categories of ranges such as:
  * - Openraising
@@ -21,5 +23,5 @@ public interface CategoryPanel {
   /**
    * Recieves the controller.
    */
-  public void recieveController();
+  public void recieveController(RangeTrainerController control);
 }
