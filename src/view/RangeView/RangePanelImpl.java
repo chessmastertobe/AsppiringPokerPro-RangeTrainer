@@ -5,6 +5,8 @@ import java.awt.*;
 import javax.swing.*;
 
 import model.Range;
+import model.Tag;
+import view.CategoryPanel;
 import view.RangePanel;
 
 /**
@@ -12,15 +14,19 @@ import view.RangePanel;
  */
 public class RangePanelImpl extends JPanel implements RangePanel {
 
+  private String category;
   private static int height;
   private static int width;
   private String[][] matrix;
+  private Color[][] colors;
+  private Range range;
 
 
   public RangePanelImpl(int height, int width) {
     this.height = height;
     this.width = width;
     this.matrix = new String[13][13];
+    this.colors = new Color[13][13];
     String[] cards = {"A","K","Q","J","T","9","8","7","6","5","4","3","2"};
 
     for (int i = 0; i < 13; i++) {
@@ -33,6 +39,7 @@ public class RangePanelImpl extends JPanel implements RangePanel {
           this.matrix[i][j] = cards[i] + cards[j];
         }
         System.out.print(matrix[i][j] + " ");
+        this.colors[i][j] = Color.white;
 
       }
       System.out.println("\n");
@@ -41,6 +48,7 @@ public class RangePanelImpl extends JPanel implements RangePanel {
   }
 
   public void paintComponent(Graphics g) {
+
     int row = 0;
     int col = 0;
     Font font = new Font("Times New Roman", Font.CENTER_BASELINE, this.width/26);
@@ -48,7 +56,7 @@ public class RangePanelImpl extends JPanel implements RangePanel {
    for (int i = 0; i < this.width; i+=this.width/13) {
 
       for (int j = 0; j < this.height; j+=this.height/13) {
-        g.setColor(Color.green);
+        g.setColor(this.colors[col][row]);
         g.fillRect(i,j,this.width/13,this.height/13);
         g.setColor(Color.black);
         g.drawRect(i,j,this.width/13,this.height/13);
@@ -78,6 +86,17 @@ public class RangePanelImpl extends JPanel implements RangePanel {
    */
   @Override
   public void acceptRange(Range r) {
+    this.range = r;
+    this.category = r.getCategory();
+
+    for (Tag t : r.getTags()) {
+      this.setTag(t);
+    }
+
+  }
+
+  //Takes a tag and fills the color matrix.
+  private void setTag(Tag t) {
 
   }
 
